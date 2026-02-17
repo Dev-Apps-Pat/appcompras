@@ -1,10 +1,10 @@
 const CACHE_NAME = 'compras-v1';
 const ASSETS_TO_CACHE = [
   './',
-  './compras.html',
+  './index.html',
   './manifest.json'
   // Add other assets here (css, js, images) if they are external files.
-  // Since styles and scripts are inline in compras.html, caching the HTML covers most of it.
+  // Since styles and scripts are inline in index.html, caching the HTML covers most of it.
 ];
 
 self.addEventListener('install', (event) => {
